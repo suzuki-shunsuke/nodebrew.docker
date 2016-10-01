@@ -1,5 +1,5 @@
 FROM debian:8.6
-RUN useradd -u 1000 -m debian && \
+RUN useradd -u 900 -m debian && \
     apt-get update && \
     apt-get install -y curl && \
     rm -rf /var/lib/apt/lists/*
